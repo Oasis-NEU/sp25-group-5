@@ -1,4 +1,4 @@
-export default function AboutCreators() {
+export default function Creators() {
     return (
         <div>
             <h1>About the Creators</h1>

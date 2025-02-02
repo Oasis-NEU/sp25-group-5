@@ -1,4 +1,4 @@
-export default function AboutSources() {
+export default function Sources() {
     return (
         <div>
             <h1>About the Sources</h1>
