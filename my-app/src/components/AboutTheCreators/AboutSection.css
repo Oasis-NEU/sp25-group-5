@@ -1,0 +1,13 @@
+.about-section {
+    padding: 40px;
+}
+
+.creator-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.creator-card img {
+    width: 100%;
+}

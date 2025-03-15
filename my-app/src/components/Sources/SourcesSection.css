@@ -1,0 +1,9 @@
+.sources-section {
+    padding: 40px;
+}
+
+.sources-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,19 +1,13 @@
 import React from 'react';
-import Footer from "./components/Footer.jsx";
-import FrontPageScrollDown from "./components/FrontPageScrollDown.jsx";
-import RequestPage from "./components/RequestPage.jsx";
-import Sources from "./components/Sources.jsx";
+import HomePage from './pages/HomePage.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
-    <div className="app">
-      <main>
-        <FrontPageScrollDown />
-        <RequestPage />
-        <Sources />
-      </main>
+    <>
+      <HomePage />
       <Footer />
-    </div>
+    </>
   );
 }
 
