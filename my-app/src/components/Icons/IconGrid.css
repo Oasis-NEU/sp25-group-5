@@ -30,6 +30,10 @@
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 start;
     gap: 24px;
     justify-items: center;
 }
@@ -42,69 +46,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
-}
-
-.icon-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
 }
 
 .icon-item img {
-    width: 60%;
-    height: 60%;
-    object-fit: contain;
-}
-
-/* First icon (husky) specific styling */
-.icon-item:first-child img {
-    border: 2px solid #B22234;
-    border-radius: 50%;
-    padding: 2px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-    .icon-grid {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
-    
-    .icon-item {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .brand-title {
-        font-size: 48px;
-    }
-    
-    .brand-tagline {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .icon-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
-    
-    .icon-item {
-        width: 90px;
-        height: 90px;
-    }
-    
-    .brand-title {
-        font-size: 40px;
-    }
-    
-    .brand-tagline {
-        font-size: 18px;
-    }
-    
-    .hero-section {
-        padding: 40px 16px;
-    }
+    width: 40; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    border-radius: 50%; /* Optional, if you want circular buttons */
 }
