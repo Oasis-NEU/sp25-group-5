@@ -1,3 +1,32 @@
+.hero-section {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.brand-content {
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.brand-title {
+    color: #B22234;
+    font-size: 64px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.brand-tagline {
+    color: #999;
+    font-size: 24px;
+    margin: 8px 0 0 0;
+}
+
+.icon-grid-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -5,13 +34,15 @@
     padding: 40px;
     max-width: 800px;
     margin: 0 start;
+    gap: 24px;
+    justify-items: center;
 }
 
 .icon-item {
-    background-color: #f5f5f5;
+    background-color: #E6E6E6;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;

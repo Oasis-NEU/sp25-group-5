@@ -1,10 +1,75 @@
-.request-form {
+.request-form-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.request-form-container h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
 }
 
 .request-form input,
-.request-form textarea,
+.request-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+}
+
+.request-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
 .request-form button {
-    display: block;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.request-form button:hover {
+    background-color: #444;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-card {
+        padding: 20px;
+    }
+    
+    .request-form-container {
+        padding: 20px;
+    }
 }
