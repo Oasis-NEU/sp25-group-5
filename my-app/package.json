@@ -16,6 +16,6 @@
     "@babel/plugin-transform-react-jsx": "^7.25.9",
     "@svgr/cli": "^8.1.0",
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^4.5.5"
+    "vite": "^6.2.2"
   }
 }
