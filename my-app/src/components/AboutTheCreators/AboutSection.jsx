@@ -2,10 +2,26 @@ import React from 'react';
 import './AboutSection.css';
 
 const creators = [
-    { name: 'Ahana', imageUrl: '../../../public/ourfaces/ahana.png' },
-    { name: 'Gia', imageUrl: '../../../public/ourfaces/gia.png' },
-    { name: 'Mimi', imageUrl: '../../../public/ourfaces/mimi.png' },
-    { name: 'Ellie', imageUrl: '../../../public/ourfaces/ellie.png' },
+    { 
+        name: 'Ahana', 
+        imageUrl: '../../../public/ourfaces/ahana.png',
+        linkedIn: 'https://www.linkedin.com/in/ahana-guin-715583226/' 
+    },
+    { 
+        name: 'Gia', 
+        imageUrl: '../../../public/ourfaces/gia.png',
+        linkedIn: 'https://www.linkedin.com/in/giacpatel'
+    },
+    { 
+        name: 'Mimi', 
+        imageUrl: '../../../public/ourfaces/mimi.png',
+        linkedIn: 'https://www.linkedin.com/in/maame-adjekum-803b78230/'
+    },
+    { 
+        name: 'Ellie', 
+        imageUrl: '../../../public/ourfaces/ellie.png',
+        linkedIn: 'https://www.linkedin.com/in/eleanor-meltzer-8a2388347/'
+    },
 ];
 
 const AboutSection = () => {
@@ -31,12 +47,18 @@ const AboutSection = () => {
 
                 <div className="creator-grid">
                     {creators.map((creator) => (
-                        <div key={creator.name} className="creator-card">
+                        <a 
+                            key={creator.name} 
+                            href={creator.linkedIn} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="creator-card"
+                        >
                             <div className="image-container">
-                                <img src={creator.imageUrl} alt={`${creator.name}`} />
+                                <img src={creator.imageUrl} alt={creator.name} />
                             </div>
                             <p>{creator.name}</p>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>
