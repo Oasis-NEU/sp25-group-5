@@ -10,10 +10,13 @@
 }
 
 .brand-title {
-    color: #B22234;
+    color: #DC1E32;
     font-size: 64px;
     margin: 0;
     font-weight: bold;
+    height: 80px; /* Fixed height to prevent layout shift */
+    display: flex;
+    align-items: center;
 }
 
 .brand-tagline {
@@ -23,19 +26,17 @@
 }
 
 .icon-grid-container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 40px 20px;
 }
 
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-    padding: 40px;
-    max-width: 800px;
-    margin: 0 start;
-    gap: 24px;
+    gap: 40px;
     justify-items: center;
+    padding: 20px;
 }
 
 .icon-item {
@@ -46,11 +47,70 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Hover effects */
+.icon-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
 }
 
 .icon-item img {
-    width: 40; /* Adjust as needed */
-    height: 80px; /* Adjust as needed */
-    border-radius: 50%; /* Optional, if you want circular buttons */
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .icon-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .icon-item {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .icon-item {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.typewriter {
+    border-right: 3px solid #DC1E32;
+    padding-right: 5px;
+    animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #DC1E32 }
+}
+
+.icon-item {
+    /* ... existing icon-item styles ... */
+    flex-direction: column;
+    /* Add this to stack image and label vertically */
 }

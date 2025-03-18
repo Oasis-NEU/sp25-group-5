@@ -1,7 +1,8 @@
 .about-section {
-    padding: 60px 40px;
+    padding: 80px 40px 60px;
     max-width: 1200px;
     margin: 0 auto;
+    scroll-margin-top: 80px;
 }
 
 .about-container {
@@ -17,7 +18,7 @@
 }
 
 .section-title {
-    color: #C90C22;
+    color: #ba1313;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -105,4 +106,4 @@
         width: 100%;
         max-width: none;
     }
-}
+}}

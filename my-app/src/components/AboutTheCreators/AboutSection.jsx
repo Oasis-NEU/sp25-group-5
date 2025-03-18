@@ -10,7 +10,7 @@ const creators = [
 
 const AboutSection = () => {
     return (
-        <section className="about-section">
+        <section id="creators" className="about-section">
             <div className="about-container">
                 <div className="about-text">
                     <h2 className="section-title">About the Creators</h2>
