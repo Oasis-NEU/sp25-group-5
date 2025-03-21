@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# 🌟 Readly - Stay Informed, Effortlessly!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💭 About
+Oasis is a platform that delivers concise, tailored news summaries based on your chosen categories, helping you stay informed quickly and effortlessly.
 
-Currently, two official plugins are available:
+🔗 **Check out Oasis live:** [https://readlyneu.netlify.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+### 📰 Custom News Summaries
+- Select your preferred categories for news
+- Quick and concise updates to keep you informed
+- Browse summaries across different news sources
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 🌐 Wide Range of Topics
+- National and international news
+- Specialized coverage for topics like technology, politics, and more
 
-- Configure the top-level `parserOptions` property like this:
+### 📱 Easy-to-Navigate Interface
+- User-friendly design to access news with ease
+- Mobile-responsive for on-the-go access
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Built With
+- React
+- TypeScript
+- JavaScript
+- Vite
+- Figma
+- HTML
+- Git
+- VSCode
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 👥 Meet the Team
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Developers
+- [Gia Patel] - [DevOps]
+- [Ahana Guin] - [QA]
+- [Mimi Adjekun] - [UI/UX]
+- [Ellie Meltzer] - [Frontend]
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Project Advisor
+- Srushti Rai - Mentor
+
+## 💡 Why Oasis?
+We created Readly to make staying informed easier and more efficient, giving readers the essential news without the overwhelm.
+
+---
+*Developed with ❤️ by Northeastern students for Northeastern students*
