@@ -8,10 +8,10 @@ const HuskyNews = () => {
       {/* Navigation Header */}
       <nav className="nav-header">
         <Link to="/" className="logo-link">
-          <img 
-            src="/readly-book-logo.png" 
-            alt="Readly Logo" 
-            className="logo-image" 
+          <img
+            src="/readly-book-logo.png"
+            alt="Readly Logo"
+            className="logo-image"
           />
         </Link>
         <div className="nav-links">
@@ -26,27 +26,33 @@ const HuskyNews = () => {
       <section className="news-section">
         <div className="news-container">
           <h1 className="section-title">Husky News</h1>
-          
+
           {/* News Articles */}
           <div className="articles-container">
             {/* First Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/image 28.png" 
-                  alt="Smiling axolotl in dark water with pink gills" 
+                <img
+                  src="/icons/image 28.png"
+                  alt="Smiling axolotl in dark water with pink gills"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                  Why are axolotls suddenly so popular — and going extinct at the same time?
+                  <a
+                    href="https://news.northeastern.edu/2024/12/13/axolotl-popularity-extinction-crisis/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Why are axolotls suddenly so popular — and going extinct at the same time?
+                  </a>
                 </h2>
                 <p className="source">Northeastern Global News</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                    Axolotls are trending online thanks to Minecraft and social media, but their 
-                    real-world population is declining fast due to habitat loss and pollution, 
+                    Axolotls are trending online thanks to Minecraft and social media, but their
+                    real-world population is declining fast due to habitat loss and pollution,
                     highlighting the need for urgent conservation efforts.
                   </p>
                 </div>
@@ -56,23 +62,29 @@ const HuskyNews = () => {
             {/* Second Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/image 31.png" 
-                  alt="Sustainability Innovation Week presentation with audience in auditorium" 
+                <img
+                  src="/icons/image 31.png"
+                  alt="Sustainability Innovation Week presentation with audience in auditorium"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                  Northeastern kicks off first-ever Sustainability Innovation Week, gathering environmental problem-solvers
+                  <a
+                    href="https://huntnewsnu.com/84925/campus/northeastern-kicks-off-first-ever-sustainability-innovation-week-gathering-environmental-problem-solvers/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Northeastern kicks off first-ever Sustainability Innovation Week, gathering environmental problem-solvers
+                  </a>
                 </h2>
-                <p className="source">Northeastern Global News</p>
+                <p className="source">The Huntington News</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                    Northeastern University's first-ever Sustainability Innovation Week, held 
-                    from March 10-14, brought students and faculty together to address 
-                    environmental challenges through workshops and competitions. The event 
-                    highlighted student-led initiatives, including the winning Sustainabites 
+                    Northeastern University's first-ever Sustainability Innovation Week, held
+                    from March 10-14, brought students and faculty together to address
+                    environmental challenges through workshops and competitions. The event
+                    highlighted student-led initiatives, including the winning Sustainabites
                     project, which aims to reduce food waste on campus.
                   </p>
                 </div>

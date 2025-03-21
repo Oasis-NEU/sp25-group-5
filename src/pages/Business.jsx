@@ -8,10 +8,10 @@ const Business = () => {
       {/* Navigation Header */}
       <nav className="nav-header">
         <Link to="/" className="logo-link">
-          <img 
-            src="/readly-book-logo.png" 
-            alt="Readly Logo" 
-            className="logo-image" 
+          <img
+            src="/readly-book-logo.png"
+            alt="Readly Logo"
+            className="logo-image"
           />
         </Link>
         <div className="nav-links">
@@ -26,28 +26,33 @@ const Business = () => {
       <section className="news-section">
         <div className="news-container">
           <h1 className="section-title">Economy</h1>
-          
+
           {/* News Articles */}
           <div className="articles-container">
             {/* First Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/ECON 1.png" 
+                <img
+                  src="/icons/ECON 1.png"
                   alt="Fed Chair Jerome Powell"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                   Powell warns inflation is sticking around thanks to Trump's tariffs
-
+                  <a
+                    href="https://www.businessinsider.com/powell-trump-tariffs-adding-to-inflation-interest-rates-trade-policy-2025-3?utm_source=chatgpt.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Powell warns inflation is sticking around thanks to Trump's tariffs
+                  </a>
                 </h2>
                 <p className="source">Business Insider</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                     Federal Reserve Chair Jerome Powell warns that persistent inflation 
-                     is being fueled by Trump-era tariffs, complicating interest rate policy.
+                    Federal Reserve Chair Jerome Powell warns that persistent inflation
+                    is being fueled by Trump-era tariffs, complicating interest rate policy.
                   </p>
                 </div>
               </div>
@@ -56,20 +61,26 @@ const Business = () => {
             {/* Second Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/ECON 2.png" 
-                  alt="Retail sales account for about a third of overall spending in the US." 
+                <img
+                  src="/icons/ECON 2.png"
+                  alt="Retail sales account for about a third of overall spending in the US."
                 />
               </div>
               <div className="article-content">
                 <h2>
-                   Retail sales came in weaker than expected, another bad sign for the US economy
+                  <a
+                    href="https://www.cnn.com/2025/03/17/economy/us-retail-sales-february/index.html?utm_source=chatgpt.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Retail sales came in weaker than expected, another bad sign for the US economy
+                  </a>
                 </h2>
                 <p className="source">CNN</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                    U.S. retail sales for February came in weaker than expected, signaling continued 
+                    U.S. retail sales for February came in weaker than expected, signaling continued
                     economic strain.
                   </p>
                 </div>

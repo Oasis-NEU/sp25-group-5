@@ -162,4 +162,17 @@
   .news-section {
     padding: 40px 16px;
   }
-} 
+}
+
+.article-content h2 a {
+  text-decoration: none;
+  /* Removes underline */
+  color: inherit;
+  /* Inherits the text color from the parent element */
+}
+
+.article-content h2 a:hover {
+  text-decoration: underline;
+  color: #DC1E32;
+  /* Optional: underline on hover */
+}

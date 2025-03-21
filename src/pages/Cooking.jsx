@@ -39,14 +39,20 @@ const Cooking = () => {
                             </div>
                             <div className="article-content">
                                 <h2>
-                                    I made Guy Fieri's 'perfect' burger, and his special trick for melting the cheese made it restaurant-worth
+                                    <a
+                                        href="https://www.businessinsider.com/guy-fieri-perfect-burger-recipe"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        I made Guy Fieri's 'perfect' burger, and his special trick for melting the cheese made it restaurant-worthy
+                                    </a>
                                 </h2>
-                                <p className="source">Culinary Chronicles</p>
+                                <p className="source">Business Insider</p>
                                 <div className="summary-box">
                                     <h3>Summary</h3>
                                     <p>
-                                    This article shares the author's experience recreating Guy Fieri's burger recipe, highlighting a unique cheese-melting technique that resulted in a juicy, 
-                                    flavorful, and restaurant-quality burger.
+                                        This article shares the author's experience recreating Guy Fieri's burger recipe, highlighting a unique cheese-melting technique that resulted in a juicy,
+                                        flavorful, and restaurant-quality burger.
                                     </p>
                                 </div>
                             </div>
@@ -57,19 +63,25 @@ const Cooking = () => {
                             <div className="image-container">
                                 <img
                                     src="/icons/COOKING 2.png"
-                                    alt="Engel in London offers a hot dog trolley of German sausages with toppings like truffle mayo, gruyere, fig jam and crispy onions."
+                                    alt="Engel in London offers a hot dog trolley of German sausages with toppings like truffle mayo, gruyere, fig jam, and crispy onions."
                                 />
                             </div>
                             <div className="article-content">
                                 <h2>
-                                    The 11 biggest food trends for 2025
+                                    <a
+                                        href="https://www.nationalgeographic.com/travel/article/biggest-food-trends-for-2025"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        The 11 biggest food trends for 2025
+                                    </a>
                                 </h2>
-                                <p className="source">Business Insider</p>
+                                <p className="source">National Geographic</p>
                                 <div className="summary-box">
                                     <h3>Summary</h3>
                                     <p>
-                                    This article explores emerging culinary trends, from clarified cocktails to specialist seaweed, 
-                                    highlighting the evolving landscape of food and drink in 2025.
+                                        This article explores emerging culinary trends, from clarified cocktails to specialist seaweed,
+                                        highlighting the evolving landscape of food and drink in 2025.
                                     </p>
                                 </div>
                             </div>

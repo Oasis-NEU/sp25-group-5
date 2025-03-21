@@ -8,10 +8,10 @@ const Science = () => {
       {/* Navigation Header */}
       <nav className="nav-header">
         <Link to="/" className="logo-link">
-          <img 
-            src="/readly-book-logo.png" 
-            alt="Readly Logo" 
-            className="logo-image" 
+          <img
+            src="/readly-book-logo.png"
+            alt="Readly Logo"
+            className="logo-image"
           />
         </Link>
         <div className="nav-links">
@@ -26,26 +26,32 @@ const Science = () => {
       <section className="news-section">
         <div className="news-container">
           <h1 className="section-title">Science</h1>
-          
+
           {/* News Articles */}
           <div className="articles-container">
             {/* First Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/SCIENCE 1.png" 
-                  alt="Scientific research" 
+                <img
+                  src="/icons/SCIENCE 1.png"
+                  alt="Scientific research"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                  Breakthrough in Quantum Computing: First Commercial Application Launches
+                  <a
+                    href="https://www.nationalgeographic.com/science/article/early-life-earth-theories"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    How did life on Earth begin? Here are 3 popular theories.
+                  </a>
                 </h2>
-                <p className="source">Scientific American</p>
+                <p className="source">National Geographic</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                    A major tech company has unveiled the world's first commercially available quantum computer, marking a significant milestone in computing history. This development could revolutionize fields from cryptography to drug discovery.
+                    This article explores leading hypotheses on the origins of life, including the roles of lightning, deep-sea vents, and extraterrestrial contributions.
                   </p>
                 </div>
               </div>
@@ -54,16 +60,22 @@ const Science = () => {
             {/* Second Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/SCIENCE 2.png" 
-                  alt="Scientific discovery" 
+                <img
+                  src="/icons/SCIENCE 2.png"
+                  alt="Scientific discovery"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                  New Species Discovered in Deep Ocean: Bioluminescent Creatures Found
+                  <a
+                    href="https://www.nationalgeographic.com/science/article/rising-dementia-rates-reason-and-how-to-reduce-risk"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    The reason dementia rates are rising is surprisingly simple.
+                  </a>
                 </h2>
-                <p className="source">Nature Journal</p>
+                <p className="source">National Geographic</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>

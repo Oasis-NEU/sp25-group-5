@@ -8,10 +8,10 @@ const Film = () => {
       {/* Navigation Header */}
       <nav className="nav-header">
         <Link to="/" className="logo-link">
-          <img 
-            src="/readly-book-logo.png" 
-            alt="Readly Logo" 
-            className="logo-image" 
+          <img
+            src="/readly-book-logo.png"
+            alt="Readly Logo"
+            className="logo-image"
           />
         </Link>
         <div className="nav-links">
@@ -26,26 +26,32 @@ const Film = () => {
       <section className="news-section">
         <div className="news-container">
           <h1 className="section-title">Film</h1>
-          
+
           {/* News Articles */}
           <div className="articles-container">
             {/* First Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/FILM-1.png" 
+                <img
+                  src="/icons/FILM-1.png"
                   alt="(From left) Erin Doherty as Briony Ariston and Owen Cooper as Jamie Miller in 'Adolescence.'"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                Why everyone is talking about ‘Adolescence,’ the Netflix limited series that’s every parent’s nightmare
+                  <a
+                    href="https://www.cnn.com/2025/03/18/entertainment/adolescence-netflix-limited-series/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Why everyone is talking about ‘Adolescence,’ the Netflix limited series that’s every parent’s nightmare
+                  </a>
                 </h2>
                 <p className="source">CNN</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                  Netflix's new limited series "Adolescence" delivers an enthralling depiction of a 13-year-old boy's arrest for his classmate's murder, exploring the dark world of youth radicalization and the pervasive influence of toxic online echo chambers
+                    Netflix's new limited series "Adolescence" delivers an enthralling depiction of a 13-year-old boy's arrest for his classmate's murder, exploring the dark world of youth radicalization and the pervasive influence of toxic online echo chambers.
                   </p>
                 </div>
               </div>
@@ -54,23 +60,26 @@ const Film = () => {
             {/* Second Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/icons/FILM-2.png" 
-                  alt="Portrait of Bong Joon Ho" 
+                <img
+                  src="/icons/FILM-2.png"
+                  alt="Portrait of Bong Joon Ho"
                 />
               </div>
               <div className="article-content">
                 <h2>
-                Bong Joon Ho Will Always Root for the Losers
+                  <a
+                    href="https://www.theatlantic.com/culture/archive/2025/03/mickey-17-bong-joon-ho-interview/682017/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Bong Joon Ho Will Always Root for the Losers
+                  </a>
                 </h2>
                 <p className="source">The Atlantic</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                  In "Mickey 17," director Bong Joon Ho transports his signature focus on class struggles to a sci-fi setting,
-                   following an expendable worker's repeated deaths and rebirths on a colonization mission, highlighting the
-                    relentless exploitation of the working class. 
-
+                    In "Mickey 17," director Bong Joon Ho transports his signature focus on class struggles to a sci-fi setting, following an expendable worker's repeated deaths and rebirths on a colonization mission, highlighting the relentless exploitation of the working class.
                   </p>
                 </div>
               </div>

@@ -8,10 +8,10 @@ const Astrology = () => {
       {/* Navigation Header */}
       <nav className="nav-header">
         <Link to="/" className="logo-link">
-          <img 
-            src="/readly-book-logo.png" 
-            alt="Readly Logo" 
-            className="logo-image" 
+          <img
+            src="/readly-book-logo.png"
+            alt="Readly Logo"
+            className="logo-image"
           />
         </Link>
         <div className="nav-links">
@@ -26,26 +26,32 @@ const Astrology = () => {
       <section className="news-section">
         <div className="news-container">
           <h1 className="section-title">Astrology</h1>
-          
+
           {/* News Articles */}
           <div className="articles-container">
             {/* First Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/public/icons/ASTROLOGY 1.png" 
+                <img
+                  src="/public/icons/ASTROLOGY 1.png"
                   alt="A blue artificial eyeball sits in the middle of a circular astrological chart."
                 />
               </div>
               <div className="article-content">
                 <h2>
+                  <a
+                    href="https://www.theatlantic.com/technology/archive/2023/10/ai-astrology-co-star-chatbot/675342/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     AI Astrology Is Getting a Little Too Personal
+                  </a>
                 </h2>
-                <p className="source">theatlantic</p>
+                <p className="source">The Atlantic</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                  Katherine Hu critiques Co–Star's new AI-powered chatbot feature, highlighting concerns over its overly personalized and potentially intrusive guidance.
+                    Katherine Hu critiques Co–Star's new AI-powered chatbot feature, highlighting concerns over its overly personalized and potentially intrusive guidance.
                   </p>
                 </div>
               </div>
@@ -54,19 +60,26 @@ const Astrology = () => {
             {/* Second Article */}
             <article className="news-article">
               <div className="image-container">
-                <img 
-                  src="/public/icons/ASTROLOGY 2.png" 
-                  alt="The snake — seen here in a relief at Beijing's Baiyun Taoist Temple — is one of the 12 different animals of the Chinese zodiac calendar cycle." 
+                <img
+                  src="/public/icons/ASTROLOGY 2.png"
+                  alt="The snake — seen here in a relief at Beijing's Baiyun Taoist Temple — is one of the 12 different animals of the Chinese zodiac calendar cycle."
                 />
               </div>
               <div className="article-content">
                 <h2>
-                Chinese zodiac predictions: What’s in store for 2025 as we enter the Year of the Snake                </h2>
+                  <a
+                    href="https://www.cnn.com/style/article/chinese-zodiac-2025-year-of-the-snake/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Chinese zodiac predictions: What’s in store for 2025 as we enter the Year of the Snake
+                  </a>
+                </h2>
                 <p className="source">CNN</p>
                 <div className="summary-box">
                   <h3>Summary</h3>
                   <p>
-                  Chinese zodiac predictions for 2025, the Year of the Snake! The year's energy influences various aspects of life, including relationships, career, and personal growth.
+                    Chinese zodiac predictions for 2025, the Year of the Snake! The year's energy influences various aspects of life, including relationships, career, and personal growth.
                   </p>
                 </div>
               </div>

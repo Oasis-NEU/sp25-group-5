@@ -39,7 +39,13 @@ const Music = () => {
                             </div>
                             <div className="article-content">
                                 <h2>
-                                    Can superstars still bank on fans splurging for concerts like Taylor Swift's Eras Tour?
+                                    <a
+                                        href="https://www.cnn.com/2024/04/20/economy/us-concert-spending-2024-predictions/index.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Can superstars still bank on fans splurging for concerts like Taylor Swift's Eras Tour?
+                                    </a>
                                 </h2>
                                 <p className="source">CNN</p>
                                 <div className="summary-box">
@@ -61,7 +67,13 @@ const Music = () => {
                             </div>
                             <div className="article-content">
                                 <h2>
-                                    Carole King Fast Facts
+                                    <a
+                                        href="https://edition.cnn.com/2016/05/25/us/carole-king-fast-facts/index.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Carole King Fast Facts
+                                    </a>
                                 </h2>
                                 <p className="source">CNN</p>
                                 <div className="summary-box">

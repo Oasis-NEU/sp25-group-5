@@ -39,7 +39,13 @@ const Art = () => {
                             </div>
                             <div className="article-content">
                                 <h2>
-                                    A Trove of ‘Lost Basquiats’ Led to a Splashy Exhibition. Then the FBI Showed Up.
+                                    <a
+                                        href="https://www.theatlantic.com/magazine/archive/2024/03/orlando-art-museum-basquiat-forgeries/677171/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        A Trove of ‘Lost Basquiats’ Led to a Splashy Exhibition. Then the FBI Showed Up.
+                                    </a>
                                 </h2>
                                 <p className="source">The Atlantic</p>
                                 <div className="summary-box">
@@ -61,7 +67,13 @@ const Art = () => {
                             </div>
                             <div className="article-content">
                                 <h2>
-                                    8 artworks that made us question the value of art
+                                    <a
+                                        href="https://amp.cnn.com/cnn/style/article/artworks-that-made-us-question-value-of-art/index.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        8 artworks that made us question the value of art
+                                    </a>
                                 </h2>
                                 <p className="source">CNN</p>
                                 <div className="summary-box">
@@ -86,5 +98,3 @@ const Art = () => {
 };
 
 export default Art;
-
-
