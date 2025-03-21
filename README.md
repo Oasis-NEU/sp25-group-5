@@ -32,14 +32,14 @@ Oasis is a platform that delivers concise, tailored news summaries based on your
 
 ## 👥 Meet the Team
 
-### Developers
-- [Gia Patel] - [DevOps]
-- [Ahana Guin] - [QA]
-- [Mimi Adjekun] - [UI/UX]
-- [Ellie Meltzer] - [Frontend]
+### Developers + Specialties
+- Gia Patel - _DevOps_
+- Ahana Guin - _QA_
+- Mimi Adjekun - _UI/UX_
+- Ellie Meltzer - _Frontend_
 
 ### Project Advisor
-- Srushti Rai - Mentor
+- Srushti Rai - _Mentor_
 
 ## 💡 Why Oasis?
 We created Readly to make staying informed easier and more efficient, giving readers the essential news without the overwhelm.
